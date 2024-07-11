@@ -166,7 +166,7 @@ aside{
 /* ! Duration start  */
 #duration{
     padding: 50px ;
-    background-image: linear-gradient(rgb(214, 46, 51, 0.7), rgb(214, 46, 51, 0.4)) ,url(../photos/party2.png);
+    background-image: linear-gradient(rgb(214, 46, 51, 0.7), rgb(214, 46, 51, 0.4)) ,url(../Photos/party2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
