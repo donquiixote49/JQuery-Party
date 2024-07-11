@@ -1,0 +1,238 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+:root {
+    scroll-behavior: auto;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Merienda', cursive;
+    /* background-color: blue; */
+}
+
+/* ! SideBar Start  */
+
+aside{
+    display: flex;
+    position: fixed;
+    left: 0;
+    align-items: center;
+    z-index: 9999;
+}
+
+.sideBar {
+    width:15.625rem ;
+    height: 100vh;
+    background-color: rgb(214, 46, 51, 0.6);
+}
+
+
+.sideBar ul {
+    padding: 55px;
+    text-align: center;
+}
+
+
+.sideBar  ul li {
+    font-size: 1.375rem ;
+    letter-spacing: 1.6px;
+    padding: 15px;
+}
+
+.sideBar  ul li a {
+    color: white;
+    transition: .4s;
+}
+
+
+.sideBar  ul li a:hover{
+    color:rgb(65, 0, 2) ;
+}
+
+
+
+
+.sideBar .close {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+.sideBtn {
+    width: 5rem;
+    position: fixed;
+    top: 20%;
+}
+
+
+/* ! SideBar end  */
+
+
+/* ! Home Section start  */
+
+
+#home {
+    background-image: linear-gradient(rgb(214, 46, 51, 0.7), rgb(214, 46, 51, 0.4)) ,url(../Photos/party1.jpeg);
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#home h1 {
+    font-size: 3.75rem;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+}
+
+
+#home p {
+    font-size: 1.375rem;
+    letter-spacing: .1875rem;
+}
+
+@media (max-width: 488px) {
+    #home h1 {
+        font-size: 2.75rem;
+    }
+
+}
+
+/* ! Home Section end  */
+
+
+
+
+
+/* ! slider Section  start  */
+#details .container {
+    width: 100%;
+}
+
+.slidDown{
+    background-color:#F5DAD2;
+    padding: 100px 0;
+
+}
+
+.slidDown h2 {
+    font-weight: 800;
+}
+
+
+
+
+.item h4 {
+    background-color: rgba(214, 46, 51, 0.6);
+    padding: 10px 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+
+.item p {
+    background-color: #ccc;
+    margin: 0;
+    display: none;
+    
+}
+
+
+
+
+
+/* ! slider Section  start  */
+
+
+
+/* ! Duration start  */
+#duration{
+    padding: 50px ;
+    background-image: linear-gradient(rgb(214, 46, 51, 0.7), rgb(214, 46, 51, 0.4)) ,url(../photos/party2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 330px;
+}
+
+#duration .time {
+    border: 2px solid #F5DAD2;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    padding: 1.875rem .625rem;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+/* ! Duration end  */
+
+
+
+/* ! Contact Section start  */
+#contact {
+    background-color: #F5DAD2;
+} 
+
+
+#contact h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.unique {
+    color:  rgb(218, 69, 69);
+}
+
+
+.socialBox span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.socialBox span:hover {
+background-color:rgb(236, 48, 48) ;
+color: white;
+}
+
+
+
+.conF textarea{
+max-height: 170px;
+resize: vertical;
+}
+
+
+.conF .chars {
+    color:rgb(218, 69, 69) ;
+}
+
+
+
+/* ! Contact Section end  */
